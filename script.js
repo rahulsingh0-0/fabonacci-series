@@ -104,7 +104,9 @@ nextSeriesBtn.addEventListener("click", function () {
             <td>(${fabonachii})</td>
             <td>${primeNo}</td>
           </tr>`;
-   
+
     table.insertAdjacentHTML("beforeend", html);
+    nextSeriesBtn.disabled = true;
   }
 });
+
